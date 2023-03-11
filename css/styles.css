@@ -109,6 +109,11 @@ margin-bottom: 1rem;
     background-color:#ef8172 ;
     
 }
+
+.carousel-caption{ /*to avaoid overlap on mobile device*/
+    padding-top:0;
+}
+
 .carousel-item {
     height:500px;
     /* padding: 3% 15%; */
