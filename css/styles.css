@@ -109,10 +109,14 @@ margin-bottom: 1rem;
     background-color:#ef8172 ;
     
 }
-
-.carousel-caption{ /*to avaoid overlap on mobile device*/
+/* .carousal-inner {
+    height:30%;
+} */
+/* .carousel-caption{ to avaoid overlap on mobile device
     padding-top:0;
-}
+    position:absolute;
+ bottom:20px; 
+} */
 
 .carousel-item {
     height:500px;
@@ -123,7 +127,7 @@ margin-bottom: 1rem;
     width:80px;
     height:80px;
     border-radius:50%;
-    margin: 20px;
+    margin: 5px;
 }
 
 /* press */
